@@ -1,7 +1,3 @@
-Absolutely! Here's a **professional, detailed, and beginner-friendly `README.md`** you can directly copy-paste into your GitHub project:
-
----
-
 
 # 📚 Library Management System (Java Console App)
 
@@ -118,6 +114,5 @@ org.librarysystem/
 * Mockito for mocking and behavior verification
 * Clean code practices
 
----
 
 
