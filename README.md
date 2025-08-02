@@ -10,7 +10,7 @@ A console-based Java application created to demonstrate **unit testing technique
 ## 🎯 Project Overview
 
 This project was built as part of the **Software Verification & Testing** course  
-**assigned by Nazia Nishat Ma’am**,  
+**Assigned by Nazia Nishat Ma’am**,  
 Department of Software Engineering, **Metropolitan University, Sylhet**.
 
 It simulates a simple **library system** with:
@@ -26,12 +26,10 @@ It simulates a simple **library system** with:
 ## ✅ Features
 
 - 🔐 Role-based login: `Librarian` & `Student`
-
 - 🧑‍🏫 Librarian:
   - Add new books
   - Delete books
   - View all books
-
 - 🎓 Student:
   - View all books
   - Search books by title
@@ -43,19 +41,19 @@ It simulates a simple **library system** with:
 
 ## 🔐 Login Credentials
 
-| Role       | Username     | Password  |
-|------------|--------------|-----------|
-| Librarian  | `librarian1` | `lib123`  |
-| Student    | `student1`   | `stud123` |
+| Role      | Username     | Password  |
+|-----------|--------------|-----------|
+| Librarian | `librarian1` | `lib123`  |
+| Student   | `student1`   | `stud123` |
 
 ---
 
 ## 🧪 Testing Summary
 
-| Component       | Tested Features                                                                 |
-|-----------------|----------------------------------------------------------------------------------|
-| `LibraryService` | `addBook()`, `searchByTitle()`, `borrowBook()`, `returnBook()`                  |
-| `LoginService`   | `login()` with valid, invalid, and missing credentials                          |
+| Component        | Tested Features                                                      |
+|------------------|----------------------------------------------------------------------|
+| `LibraryService` | `addBook()`, `searchByTitle()`, `borrowBook()`, `returnBook()`       |
+| `LoginService`   | `login()` with valid, invalid, and missing credentials               |
 
 ### ✔️ Techniques Used
 
@@ -109,6 +107,3 @@ Batch: 2022 — 2025
 Course: *Software Verification & Testing*
 
 ---
-
-
-
