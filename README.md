@@ -33,7 +33,7 @@ This project follows clean OOP principles, includes **JUnit 5 testing with Mocki
 
 ## 🧪 Unit Testing
 
-Includes complete **JUnit 5** test coverage for:
+Includes complete #JUnit 5 test coverage for:
 - `LibraryService` methods (add, search, borrow, return)
 - `LoginService` using `@Mock`, `@InjectMocks`, and `verify(times())` / `verify(never())` from **Mockito**
 - Parameterized tests with:
