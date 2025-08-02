@@ -1,125 +1,114 @@
 
 
-````markdown
-# 📚 Library Management System (Java Console App)
+```markdown
+# 🧪 Library Management System — Java Console App (Testing Project)
 
-A simple **Java console-based Library Management System** that allows users to log in as either a **librarian** or **student**. Librarians can manage books, and students can view, search, borrow, and return books.
-
-This project follows clean OOP principles, includes **JUnit 5 testing with Mockito**, and demonstrates separation of concerns using packages like `model`, `service`, and `test`.
+A console-based Java application created to demonstrate **unit testing techniques** using **JUnit 5** and **Mockito**.
 
 ---
 
-## 🚀 Features
+## 🎯 Project Overview
 
-- 🔐 Role-based login system (`librarian` and `student`)
+This project was built as part of the **Software Verification & Testing** course  
+**assigned by Nazia Nishat Ma’am**,  
+Department of Software Engineering, **Metropolitan University, Sylhet**.
 
-### 👨‍🏫 Librarian can
-- 🔐 Login with username & password
-- ➕ Add books
-- ❌ Delete books by ID
-- 📖 View all books
-- 🔚 Exit to main menu
+It simulates a simple **library system** with:
 
-### 👩‍🎓 Student
-- 🔐 Login with username & password
-- 📖 View all books
-- 🔎 Search books by title (case-insensitive)
-- 📚 Borrow books by ID
-- 📥 Return books by ID
-- 🔚 Exit to main menu
+- 📘 Book management (add, delete, view)
+- 🔐 Role-based login system (Librarian and Student)
+- 📚 Book borrowing and returning
 
-- 🧪 Fully tested core functionalities using JUnit + Mockito
+🧪 **Main purpose**: Practice modern **Java unit testing** and **mocking** strategies.
+
 ---
 
-## 🧪 Unit Testing
+## ✅ Features
 
-Includes complete JUnit 5 test coverage for:
-- `LibraryService` methods (add, search, borrow, return)
-- `LoginService` using `@Mock`, `@InjectMocks`, and `verify(times())` / `verify(never())` from **Mockito**
-- Parameterized tests with:
+- 🔐 Role-based login: `Librarian` & `Student`
+
+- 🧑‍🏫 Librarian:
+  - Add new books
+  - Delete books
+  - View all books
+
+- 🎓 Student:
+  - View all books
+  - Search books by title
+  - Borrow & return books
+- 🔄 Simple navigation menus
+- 📄 Predefined credentials (see below)
+
+---
+
+## 🔐 Login Credentials
+
+| Role       | Username     | Password  |
+|------------|--------------|-----------|
+| Librarian  | `librarian1` | `lib123`  |
+| Student    | `student1`   | `stud123` |
+
+---
+
+## 🧪 Testing Summary
+
+| Component       | Tested Features                                                                 |
+|-----------------|----------------------------------------------------------------------------------|
+| `LibraryService` | `addBook()`, `searchByTitle()`, `borrowBook()`, `returnBook()`                  |
+| `LoginService`   | `login()` with valid, invalid, and missing credentials                          |
+
+### ✔️ Techniques Used
+
+- **JUnit 5** for unit testing
+- **Mockito** for mocking `List<User>` and verifying behavior
+- **Parameterized testing** with:
   - `@ValueSource`
   - `@CsvSource`
   - `@CsvFileSource`
   - `@MethodSource`
+- **Assertions**: `assertTrue()`, `assertFalse()`, `assertEquals()`, `assertThrows()`
+- **Behavior verification**: `verify(times())`, `verify(never())`
 
 ---
 
-## 👤 Default Users
-
-| Role      | Username     | Password |
-|-----------|--------------|----------|
-| Librarian | `librarian1` | `lib123` |
-| Student   | `student1`   | `stud123` |
-
----
-
-## 🧾 Book Examples (Pre-loaded)
-
-```bash
-ID     | Title                   | Author
-------------------------------------------------
-B001   | Clean Code              | Robert C. Martin
-B002   | Effective Java          | Joshua Bloch
-B003   | The Pragmatic Programmer | Andrew Hunt
-````
-
----
-
-## 📂 Project Structure
+## 📁 Project Structure
 
 ```
-org.librarysystem/
-├── model/
+
+org.librarysystem
+├── model
 │   ├── Book.java
 │   └── User.java
-├── service/
+├── service
 │   ├── LibraryService.java
 │   └── LoginService.java
-├── test/
+├── test
 │   ├── LibraryServiceTest.java
 │   └── LoginServiceTest.java
 └── Main.java
+
 ```
 
 ---
 
-## ✅ Requirements
+## 🚀 How to Run
 
-* Java 17 or later
-* IDE (like IntelliJ IDEA, Eclipse, VS Code)
-* JUnit 5 (for testing)
-* Mockito (for mocking)
-
----
-
-## 📦 How to Run
-
-1. Clone the repo:
-
-   ```bash
-   git clone https://github.com/your-username/library-system.git
-   cd library-system
-   ```
-
-2. Open the project in your favorite IDE.
-
-3. Run `Main.java`.
-
-4. Follow the on-screen prompts to log in as a librarian or student.
+1. Clone this repository  
+2. Open the project in IntelliJ / VS Code  
+3. Run `Main.java` to start the program  
+4. Run `LibraryServiceTest` & `LoginServiceTest` to test the logic  
 
 ---
 
-## 🧠 Learning Outcomes
+## 🙋‍♀️ Author
 
-* Java OOP: classes, objects, encapsulation
-* Console input/output handling
-* Role-based logic flow
-* Java collections (List, Optional, Stream)
-* Unit testing with JUnit 5
-* Mockito for mocking and behavior verification
-* Clean code practices
+**Fahmida Rahman Anu**  
+B.Sc. in Software Engineering  
+Metropolitan University, Sylhet  
+Batch: 2022 — 2025  
+Course: *Software Verification & Testing*
 
 ---
 
-## 📟 Project Output
+
 
