@@ -69,25 +69,21 @@ It simulates a simple **library system** with:
 
 ---
 
-## 📁 Project Structure
+## 📂 Project Structure
 
 ```
-
-org.librarysystem
-├── model
+org.librarysystem/
+├── model/
 │   ├── Book.java
 │   └── User.java
-├── service
+├── service/
 │   ├── LibraryService.java
 │   └── LoginService.java
-├── test
+├── test/
 │   ├── LibraryServiceTest.java
 │   └── LoginServiceTest.java
 └── Main.java
-
 ```
-
----
 
 ## 🚀 How to Run
 
