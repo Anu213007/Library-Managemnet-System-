@@ -10,7 +10,9 @@ This project follows clean OOP principles, includes **JUnit 5 testing with Mocki
 ---
 
 ## 🚀 Features
+
 - 🔐 Role-based login system (`librarian` and `student`)
+
 ### 👨‍🏫 Librarian can
 - 🔐 Login with username & password
 - ➕ Add books
