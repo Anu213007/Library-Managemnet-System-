@@ -1,6 +1,3 @@
-
-
-```markdown
 # 🧪 Library Management System — Java Console App (Testing Project)
 
 A console-based Java application created to demonstrate **unit testing techniques** using **JUnit 5** and **Mockito**.
@@ -10,13 +7,13 @@ A console-based Java application created to demonstrate **unit testing technique
 ## 🎯 Project Overview
 
 This project was built as part of the **Software Verification & Testing** course  
-**Assigned by Nazia Nishat Ma’am**,  
-Department of Software Engineering, **Metropolitan University, Sylhet**.
+**Assigned by Nazia Nishat Ma’am**  
+Department of Software Engineering, **Metropolitan University, Sylhet**
 
 It simulates a simple **library system** with:
 
-- 📘 Book management (add, delete, view)
-- 🔐 Role-based login system (Librarian and Student)
+- 📘 Book management (add, delete, view)  
+- 🔐 Role-based login system (Librarian and Student)  
 - 📚 Book borrowing and returning
 
 🧪 **Main purpose**: Practice modern **Java unit testing** and **mocking** strategies.
@@ -25,17 +22,21 @@ It simulates a simple **library system** with:
 
 ## ✅ Features
 
-- 🔐 Role-based login: `Librarian` & `Student`
-- 🧑‍🏫 Librarian:
-  - Add new books
-  - Delete books
-  - View all books
-- 🎓 Student:
-  - View all books
-  - Search books by title
-  - Borrow & return books
-- 🔄 Simple navigation menus
-- 📄 Predefined credentials (see below)
+### 🔐 Role-based login: `Librarian` & `Student`
+
+#### 🧑‍🏫 Librarian
+- ➕ Add new books  
+- ❌ Delete books  
+- 📖 View all books
+
+#### 🎓 Student
+- 📖 View all books  
+- 🔎 Search books by title  
+- 📥 Borrow & 📤 Return books
+
+### 🔄 Additional Features
+- 📄 Predefined credentials  
+- 🔃 Simple text-based navigation menus
 
 ---
 
@@ -57,19 +58,19 @@ It simulates a simple **library system** with:
 
 ### ✔️ Techniques Used
 
-- **JUnit 5** for unit testing
-- **Mockito** for mocking `List<User>` and verifying behavior
-- **Parameterized testing** with:
-  - `@ValueSource`
-  - `@CsvSource`
-  - `@CsvFileSource`
-  - `@MethodSource`
-- **Assertions**: `assertTrue()`, `assertFalse()`, `assertEquals()`, `assertThrows()`
-- **Behavior verification**: `verify(times())`, `verify(never())`
+- ✅ **JUnit 5** for unit testing  
+- 🔄 **Mockito** for mocking `List<User>` and verifying behavior  
+- 🧪 **Parameterized testing** using:
+  - `@ValueSource`  
+  - `@CsvSource`  
+  - `@CsvFileSource`  
+  - `@MethodSource`  
+- 🔍 **Assertions**: `assertTrue()`, `assertFalse()`, `assertEquals()`, `assertThrows()`  
+- 🔁 **Behavior verification**: `verify(times())`, `verify(never())`
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
 ```
 org.librarysystem/
@@ -85,21 +86,27 @@ org.librarysystem/
 └── Main.java
 ```
 
+---
+
 ## 🚀 How to Run
 
-1. Clone this repository  
-2. Open the project in IntelliJ / VS Code  
-3. Run `Main.java` to start the program  
-4. Run `LibraryServiceTest` & `LoginServiceTest` to test the logic  
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/library-management-system.git
+   ```
+2. Open the project in **IntelliJ IDEA**, **VS Code**, or any Java IDE  
+3. Run `Main.java` to start the application  
+4. Run `LibraryServiceTest.java` & `LoginServiceTest.java` for test execution
 
 ---
 
 ## 🙋‍♀️ Author
 
 **Fahmida Rahman Anu**  
-B.Sc. in Software Engineering  
-Metropolitan University, Sylhet  
-Batch: 2022 — 2025  
-Course: *Software Verification & Testing*
+🎓 B.Sc. in Software Engineering  
+🏫 Metropolitan University, Sylhet  
+📅 Batch: 2022 — 2025  
+📘 Course: *Software Verification & Testing*
 
 ---
+
