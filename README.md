@@ -10,13 +10,13 @@ This project follows clean OOP principles, includes **JUnit 5 testing with Mocki
 ---
 
 ## 🚀 Features
-
-### 👨‍🏫 Librarian
+- 🔐 Role-based login system (`librarian` and `student`)
+### 👨‍🏫 Librarian can
 - 🔐 Login with username & password
 - ➕ Add books
 - ❌ Delete books by ID
 - 📖 View all books
-- 🔚 Logout
+- 🔚 Exit to main menu
 
 ### 👩‍🎓 Student
 - 🔐 Login with username & password
@@ -24,8 +24,9 @@ This project follows clean OOP principles, includes **JUnit 5 testing with Mocki
 - 🔎 Search books by title (case-insensitive)
 - 📚 Borrow books by ID
 - 📥 Return books by ID
-- 🔚 Logout
+- 🔚 Exit to main menu
 
+- 🧪 Fully tested core functionalities using JUnit + Mockito
 ---
 
 ## 🧪 Unit Testing
@@ -120,70 +121,3 @@ org.librarysystem/
 
 ## 📟 Project Output
 
-==== Welcome ====
-1. Login as Librarian
-2. Login as Student
-3. Exit
-Choose option: 1
-Username: librarian1
-Password: lib123
-Logged in as: librarian1 (librarian)
-
-=== Librarian Menu ===
-1. Add Book
-2. Delete Book
-3. View All Books
-4. Logout
-Choose option: 1
-Book ID: B004
-Title: Head First Java
-Author: Kathy Sierra
-Book added successfully.
-
-=== Librarian Menu ===
-1. Add Book
-2. Delete Book
-3. View All Books
-4. Logout
-Choose option: 3
-
-All Books:
-[B001] Clean Code by Robert C. Martin - Available  
-[B002] Effective Java by Joshua Bloch - Available  
-[B003] The Pragmatic Programmer by Andrew Hunt - Available  
-[B004] Head First Java by Kathy Sierra - Available
-
-Choose option: 4
-Logged out.
-
-==== Welcome ====
-1. Login as Librarian
-2. Login as Student
-3. Exit
-Choose option: 2
-Username: student1
-Password: stud123
-Logged in as: student1 (student)
-
-=== Student Menu ===
-1. View All Books
-2. Search Book by Title
-3. Borrow Book
-4. Return Book
-5. Logout
-Choose option: 2
-Enter book title to search: Clean Code
-[B001] Clean Code by Robert C. Martin - Available
-
-=== Student Menu ===
-Choose option: 3
-Enter book ID to borrow: B001
-Book borrowed successfully.
-
-=== Student Menu ===
-Choose option: 4
-Enter book ID to return: B001
-Book returned successfully.
-
-Choose option: 5
-Logged out.
