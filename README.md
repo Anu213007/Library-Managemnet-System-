@@ -100,13 +100,4 @@ org.librarysystem/
 
 ---
 
-## 🙋‍♀️ Author
-
-**Fahmida Rahman Anu**  
-🎓 B.Sc. in Software Engineering  
-🏫 Metropolitan University, Sylhet  
-📅 Batch: 2022 — 2025  
-📘 Course: *Software Verification & Testing*
-
----
 
